@@ -31,19 +31,29 @@ There are many different ways to use Git. There are the original command line to
 
 ## Installation of Git
 
-Before you start using Git, you have to make it available on your computer. To download Git, follow the steps below:
- 
-1. Visit git-scm.com.
-2. Select "Download for [Your Operating System]" and the download should start automatically.
-2. Double click on the download and open the package.
-3. Follow the instructions on the pop-up window.
-
-
-Even if you already have Git installed, you should update to the latest version. To identify which version of Git you currently have, run the following line:
+Before you start using Git, you have to make it available on your computer. Even if you already have Git installed, you should update to the latest version. To identify which version of Git you currently have, run the following line:
 
 ```
 git --version
 ```
+
+### Windows
+
+To download Git for Windows, follow the steps below:
+ 
+1. Visit [git-scm.com](https://git-scm.com).
+2. Select "Download for Windows" and the download should start automatically.
+2. Double click on the download and open the package.
+3. Follow the instructions on the pop-up window.
+
+
+### Mac OS X
+
+To download Git for Mac OS X, follow the steps below:
+
+1. Download [homebrew](http://brew.sh).
+2. Run ```brew install git```.
+
 
 ## Git Basics
 
