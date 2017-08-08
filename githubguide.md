@@ -1,8 +1,9 @@
-# <center> CS 1331 Guide to </center>
-<center> ![Alt Image Text] (http://doc.rultor.com/images/github-logo.png "GitHub logo") </center>
+# CS 1331 Guide to
 
-<center> **Isabella Plonk** </center>
-<center> **Fall 2016** </center>
+![GitHub Logo] (http://doc.rultor.com/images/github-logo.png)
+
+**Isabella Plonk**
+**Fall 2016**
 
 ## Introduction
 
@@ -14,7 +15,8 @@ This document contains a brief overview of GitHub for students in CS 1331: Objec
 
 Version control is a system that records changes to a file or a collection of files over time in order to recall specific versions later. If you have ever created a Google Doc, you may have noticed that each document keeps a history of every change made to it by every user and allows you to restore a previous version of your work. This is a small example of version control. In the same way version control is useful to a group creating an annotated bibliography for a project where there are multiple users and many additions and deletions, it is also useful to software developers. Having the complete history of code modifications enables us to recall previous versions of our code to identify the root causes of bugs. 
 
-However, this is not the only way utilizing a Version Control System (VCS) is important for software developers. Additionally, the branching and merging capabilities of version control allow contributors to work on independent streams of change simultaneously. By creating a branch in a VCS, we can keep multiple streams of development independent from one another while also providing the facility to merge the work back together. In merging, collaborators can ensure changes do not conflict. Lastly, with version control we can easily trace each change made since changes are annotated with a message describing its purpose. This not only aids us in debugging our code but also in understanding what our code is doing and why our code is designed the way it is.
+However, this is not the only way utilizing a Version Control System (VCS) is important for software developers. Additionally, the branching and merging capabilities of version control allow contributors to work on independent streams of change simultaneously. By creating a branch in a VCS, we can keep multiple streams of development independent from one another while also providing the facility to merge the work back together. In merging, collaborators can ensure changes do not conflict. Lastly, with version control we can easily trace each change made since changes are annotated with a message describing its purpose. This not only aids us in debugging our code but also in understanding what our code is doing and why our code is designed the way it is.
+
 
 ### The "Git" in GitHub
 
@@ -68,7 +70,7 @@ The first step to utilizing GitHub is to create a repository for your homework a
 4. Select "Java" in the dropbox for "Add .gitignore." 
 5. Select "Create repository." 
 
-![Alt Image Text] (https://guides.github.com/activities/hello-world/create-new-repo.png "Create a New Repository")
+![Create a New Repository] (https://guides.github.com/activities/hello-world/create-new-repo.png)
 
 Now you can make a working copy of this repository on your computer. This allows you to make changes locally and then push to GitHub. To do this, cd into the directory in which you want to make your local repository and use ```git clone <repository url>``` to clone your repository. For example, if you wanted to clone the Git linkable library called libgit2, you would run the following line:
 
@@ -88,7 +90,7 @@ For this course you will need to add all of the TAs as collaborators, so we can 
 3. Select "Collaborators."
 4. In the text field, type in the user's username, full name, or email address and select "Add collaborator."
 
-![Alt Image Text] (https://help.github.com/assets/images/help/repository/repo-settings-collab-autofill.png "Adding Collaborators")
+![Adding Collaborators] (https://help.github.com/assets/images/help/repository/repo-settings-collab-autofill.png)
 
 ### Recording Changes to the Repository
 
@@ -96,11 +98,11 @@ Now let's say you have been working hard on your local repository. You have been
 
 What differentiates Git from other VCSs is how it stores its data. Instead of storing its information as a list of file-based changes, Git stores its data as a directed acyclic graph (DAG) which allows for non-linear development. Each commit contains information about its ancestors. A commit can have zero to infinitely many parent commits. This enables Git to reference previous files instead of storing the files again if in the last commit there were no changes made to those files and to determine the common ancestors of two merging branches as shown in the figure below.
 
-![Alt Image Text] (http://git.mikeward.org/img/dag-commit-4.png "Git DAG")
+![Git DAG] (http://git.mikeward.org/img/dag-commit-4.png)
 
 This forms the foundation of Git’s architecture. With Git, developers check out or clone files from a public repository to their own local version of the code called a local repository, or working directory, allowing them to work simultaneously on the same project. A developer can then add his changes to the staging area where changes wait to be committed. When a developer makes a commit, the commit is still local to his device until he pushes it to a public repository.
 
-![Alt Image Text] (https://2.bp.blogspot.com/-XbBSjvS_c-o/VrsfPLHnnsI/AAAAAAAABYA/Kcy3rvEZAac/s1600/b.PNG "Git Architecture")
+![Git Architecture] (https://2.bp.blogspot.com/-XbBSjvS_c-o/VrsfPLHnnsI/AAAAAAAABYA/Kcy3rvEZAac/s1600/b.PNG)
 
 #### git status
 
@@ -154,7 +156,7 @@ Now that we have made a commit, we can view our commit history. This can be done
 
 From the command line, you can run ```git log``` to view this same history.
 
-![Alt Image Text] (http://gitready.com/images/graphfail.png "Git Log")
+![Git Log] (http://gitready.com/images/graphfail.png)
 
 
 ## Summary
