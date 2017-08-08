@@ -3,6 +3,7 @@
 ![GitHub Logo] (http://doc.rultor.com/images/github-logo.png)
 
 **Isabella Plonk**
+
 **Fall 2016**
 
 ## Introduction
